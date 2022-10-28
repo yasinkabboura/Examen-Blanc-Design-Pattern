@@ -1,4 +1,4 @@
-package DessinPackage;
+package StrategyPattern;
 
 
 public interface Strategy {

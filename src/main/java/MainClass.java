@@ -1,4 +1,8 @@
-package DessinPackage;
+import PatternComposite.*;
+import ObserverPattern.Coloers;
+import ObserverPattern.ObservableImpl;
+import StrategyPattern.Strategy;
+import StrategyPattern.StrategyImpl;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package DessinPackage;
+package StrategyPattern;
 
 import java.io.Serializable;
 

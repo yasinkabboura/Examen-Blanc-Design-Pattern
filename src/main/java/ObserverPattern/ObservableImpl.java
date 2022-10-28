@@ -1,4 +1,4 @@
-package DessinPackage;
+package ObserverPattern;
 
 import java.io.Serializable;
 import java.util.ArrayList;

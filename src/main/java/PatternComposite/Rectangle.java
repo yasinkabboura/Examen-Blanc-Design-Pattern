@@ -1,4 +1,8 @@
-package DessinPackage;
+package PatternComposite;
+
+import ObserverPattern.Coloers;
+import ObserverPattern.ObservableImpl;
+import ObserverPattern.Observer;
 
 import java.io.Serializable;
 

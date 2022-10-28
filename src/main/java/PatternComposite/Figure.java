@@ -1,4 +1,4 @@
-package DessinPackage;
+package PatternComposite;
 
 import java.io.Serializable;
 import java.util.ArrayList;

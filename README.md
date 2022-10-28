@@ -32,7 +32,7 @@ La structure de notre application
 ![alt text](images/img_5.png)
 ==> Resultat
 ![alt text](images/img_6.png)
- ==> Serialized file
+==> Serialized file
 ![alt text](images/img_7.png)
 
 

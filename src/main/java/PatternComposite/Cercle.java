@@ -1,8 +1,12 @@
-package DessinPackage;
+package PatternComposite;
+
+import ObserverPattern.Coloers;
+import ObserverPattern.ObservableImpl;
+import ObserverPattern.Observer;
 
 import java.io.Serializable;
 
-public class Cercle implements Shape,Observer, Serializable {
+public class Cercle implements Shape, Observer, Serializable {
     ObservableImpl observable = new ObservableImpl();
     Coloers coloers = new Coloers();
     double rayon;

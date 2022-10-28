@@ -1,4 +1,6 @@
-package DessinPackage;
+package PatternComposite;
+
+import StrategyPattern.Strategy;
 
 import java.io.*;
 import java.util.ArrayList;
