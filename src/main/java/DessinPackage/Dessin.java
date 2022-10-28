@@ -1,8 +1,6 @@
 package DessinPackage;
 
-import java.io.FileOutputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serializable;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,16 +26,12 @@ public class Dessin implements Serializable {
             shape.afficher();
         }
     }
-    public void sérialiser(){
-        FileOutputStream file = new FileOutputStream("exam.");
+    public void sérialiser() throws IOException {
+        FileOutputStream file = new FileOutputStream("exam");
         ObjectOutputStream out = new ObjectOutputStream(file);
-
-        // Method for serialization of object
-        out.writeObject(object);
-
+        out.writeObject(this);
         out.close();
         file.close();
-
         System.out.println("Object has been serialized");
     }
 }

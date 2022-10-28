@@ -1,7 +1,9 @@
 package DessinPackage;
 
+import java.io.IOException;
+
 public class MainClass {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         ObservableImpl observable = new ObservableImpl();
 
         Coloers coloers = new Coloers();
@@ -19,11 +21,18 @@ public class MainClass {
         dessin.ajouter(rec2);
         dessin.ajouter(cer2);
         dessin.ajouter(cer1);
-//        rec1.afficher();
-//        coloers.setCouleurContour("Green");
-//        observable.setColoers(coloers);
-//        cer1.afficher();
+
         dessin.afficher();
+        dessin.sérialiser();
+
+        coloers.setCouleurContour("Green");
+        observable.setColoers(coloers);
+        cer1.afficher();
+
+        coloers.setCouleurContour("Red");
+        coloers.setCouleurRemplissage("lime");
+        observable.setColoers(coloers);
+        cer1.afficher();
 
 
 

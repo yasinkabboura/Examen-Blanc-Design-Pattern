@@ -1,6 +1,8 @@
 package DessinPackage;
 
-public class Rectangle implements Shape, Observer{
+import java.io.Serializable;
+
+public class Rectangle implements Shape, Observer, Serializable {
     ObservableImpl observable = new ObservableImpl();
     double l,h;
     Coloers coloers = new Coloers();

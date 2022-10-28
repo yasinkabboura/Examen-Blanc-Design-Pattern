@@ -23,4 +23,19 @@ même famille. Chaque algorithme peut évoluer indépendamment de la classe dess
 qui les utilise. on utilise Pattern Strategy
 ![alt text](images/img_3.png)
 
+ ## 2. Faire une implémentation du modèle en utilisant un projet Maven sans prendre enconsidération des aspects techniques.
+La structure de notre application
+![alt text](images/img_4.png)
+
+## 3. Effectuer des Tests du modèle
+==> Test
+![alt text](images/img_5.png)
+==> Resultat
+![alt text](images/img_6.png)
+ ==> Serialized file
+![alt text](images/img_7.png)
+
+
+
+
 

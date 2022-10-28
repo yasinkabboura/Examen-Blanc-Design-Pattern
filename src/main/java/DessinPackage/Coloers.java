@@ -1,6 +1,8 @@
 package DessinPackage;
 
-public class Coloers {
+import java.io.Serializable;
+
+public class Coloers implements Serializable {
     int epaisseur;
     String couleurContour;
     String couleurRemplissage;

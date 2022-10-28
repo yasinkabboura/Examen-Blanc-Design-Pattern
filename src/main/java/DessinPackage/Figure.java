@@ -1,9 +1,10 @@
 package DessinPackage;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Figure implements Shape{
+public class Figure implements Shape, Serializable {
     List<Shape> shapeList = new ArrayList<>();
     @Override
     public void afficher() {

@@ -1,6 +1,8 @@
 package DessinPackage;
 
-public class Cercle implements Shape,Observer{
+import java.io.Serializable;
+
+public class Cercle implements Shape,Observer, Serializable {
     ObservableImpl observable = new ObservableImpl();
     Coloers coloers = new Coloers();
     double rayon;

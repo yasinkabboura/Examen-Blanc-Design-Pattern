@@ -1,9 +1,10 @@
 package DessinPackage;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ObservableImpl implements Observable {
+public class ObservableImpl implements Observable, Serializable {
     List<Observer> observerList = new ArrayList<>();
     Coloers coloers = new Coloers();
     @Override
