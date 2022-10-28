@@ -25,9 +25,11 @@ public class Rectangle implements Shape, Observer, Serializable {
         System.out.println("epaisseur "+coloers.getEpaisseur()+" couleurde contour "+ coloers.getCouleurContour()
         +" couleurde remplissage "+coloers.getCouleurRemplissage());
     }
+    @Override
     public double calculerPerimetre(){
         return (l+h)*2;
     }
+    @Override
     public double calculerSurface(){
         return l*h;
     }

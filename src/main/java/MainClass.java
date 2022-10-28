@@ -14,10 +14,10 @@ public class MainClass {
 
         Strategy strategy =  new StrategyImpl();
 
-        Rectangle rec1 = new Rectangle(observable,2,4);
-        Rectangle rec2 = new Rectangle(observable,3,2);
-        Cercle cer1 = new Cercle(observable,5);
-        Cercle cer2 = new Cercle(observable,4);
+        Shape rec1 = new Rectangle(observable,2,4);
+        Shape rec2 = new Rectangle(observable,3,2);
+        Shape cer1 = new Cercle(observable,5);
+        Shape cer2 = new Cercle(observable,4);
 
         Dessin dessin = new Dessin(strategy);
 
